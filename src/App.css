@@ -41,3 +41,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.App{
+  outline: 1px solid red;
+  margin: 25% auto;
+}
+.App-data-area{
+  outline: 1px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -43,11 +43,16 @@ table {
 }
 
 .App{
-  outline: 1px solid red;
   margin: 25% auto;
+  text-align: center;
 }
 .App-data-area{
-  outline: 1px solid blue;
   display: flex;
   justify-content: space-evenly;
+}
+.data-label{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+  margin: 50px;
 }

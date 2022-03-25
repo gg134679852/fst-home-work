@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react'
 import './DataTable.css'
-const DataTable = ({marketData}) => {
+const DataTable = ({calculate_data}) => {
   return (
     <div className="table-container">
       <table className="table table-striped">
@@ -11,10 +11,10 @@ const DataTable = ({marketData}) => {
         </tr>
       </thead>
       <tbody>
-          {marketData.time.map((data,index) => 
+          {calculate_data.time.map((data,index) => 
             <tr key={index}>
               <td>{data}</td>
-              <td>{marketData.value[index] + "%"}</td>
+              <td>{calculate_data.value[index] + "%"}</td>
           </tr>
           )
         }
